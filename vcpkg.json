@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+
+    "name": "tif2jxl",
+
+    "version": "0.1",
+
+    "builtin-baseline": "0fd31b9dbb96e1ab86e0c9ee930790990a974bd3",
+
+    "dependencies": [
+        {
+            "name": "opencv",
+            "default-features": true
+        },
+        {
+            "name": "qt5-base",
+            "default-features": true
+        }        
+    ]
+}
